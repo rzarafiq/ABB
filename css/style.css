@@ -38,7 +38,6 @@ nav {
   text-decoration: none;
   color: #333;
   font-size: 16px;
-  font-family: "SFProDisplay-Bold";
 }
 .menu1 a:hover {
   background-color: #f6f7f8;
@@ -676,7 +675,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   max-width: 100%;
 }
 .kalkp4 {
-  font-family: ;
+
   font-size: 1.6em;
   font-weight: 600;
   width: 145px;
@@ -686,7 +685,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   justify-content: center;
 }
 .kalkp5 {
-  font-family: ;
+  
   font-size: 1em;
   font-weight: 500;
   width: 145px;
@@ -706,7 +705,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   display: none;
 }
 .kalkp6 {
-  font-family: ;
+  
   font-size: 1em;
   color: #7f7f7f;
   margin: 30px 20px;
@@ -730,12 +729,12 @@ label input[type="checkbox"]:checked .teklisubmit {
   padding: 40px 15px;
 }
 .xidmeth2 {
-  font-family: ;
+  
   font-size: 1.6em;
   font-weight: 700;
 }
 .xidmeth3 {
-  font-family: ;
+  
   font-size: 1.2em;
   font-weight: 600;
   width: 185px;
@@ -776,7 +775,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   padding: 40px 0;
 }
 .valyutah3 {
-  font-family: ;
+  
   font-size: 1.4em;
   font-weight: 600;
   margin: 0 10px;
@@ -791,14 +790,14 @@ label input[type="checkbox"]:checked .teklisubmit {
   align-items: space-;
 }
 .valyutap1 {
-  font-family: ;
+  
   font-size: 0.8em;
   font-weight: 600;
   color: #666;
   margin: 20px 10px -20px 10px;
 }
 .valyutap2 {
-  font-family: ;
+  
   font-size: 0.8em;
   font-weight: 600;
   color: #666;
@@ -806,7 +805,7 @@ label input[type="checkbox"]:checked .teklisubmit {
 }
 .valyutagecis {
   rotate: 90deg;
-  font-family: ;
+
   font-size: 0.8em;
   font-weight: 600;
   color: #666;
@@ -817,18 +816,17 @@ label input[type="checkbox"]:checked .teklisubmit {
   height: 100px;
 }
 .tableth {
-  font-family: ;
-  font-size: ;
+
   font-weight: 500;
   padding: 40px 0;
 }
 .tabletd1 {
-  font-family: ;
+
   font-size: 1.5em;
   font-weight: 600;
 }
 .tabletd2 {
-  font-family: ;
+  
   font-size: 1.5em;
   font-weight: 400;
 }
@@ -841,7 +839,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin: 0 15px;
 }
 .valyutah4 {
-  font-family: ;
+
   font-size: 1.4em;
   font-weight: 600;
   margin: 50px 0;
@@ -877,12 +875,12 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin: 0 0 40px 0;
 }
 .xeberh2 {
-  font-family: ;
+  
   font-size: 1.6em;
   font-weight: 700;
 }
 .xeberp1 {
-  font-family: ;
+ 
   font-size: 1.1em;
   font-weight: 500;
 }
@@ -905,13 +903,13 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin: 25px 0;
 }
 .xeberh3 {
-  font-family: ;
+ 
   font-size: 1.1em;
   font-weight: 500;
   line-height: 1.5em;
 }
 .xeberp2 {
-  font-family: ;
+  
   font-size: 0.7em;
   font-weight: 500;
   line-height: 0.9em;
@@ -925,7 +923,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   border-bottom: 1px solid #dedede;
 }
 .reqemsalh2 {
-  font-family: ;
+ 
   font-size: 1.6em;
   font-weight: 700;
   margin: 0 0 20px 0;
@@ -952,7 +950,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin: -180px 0 0 5px;
 }
 .reqemsalh3 {
-  font-family: ;
+ 
   font-size: 1.2em;
   font-weight: 600;
   line-height: 1.2em;
@@ -960,7 +958,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin: 20px 0 15px 0;
 }
 .reqemsalp {
-  font-family: ;
+ 
   font-size: 0.9em;
   font-weight: 400;
   line-height: 1.2em;
@@ -987,7 +985,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin-bottom: 25px;
 }
 .reqemsala1 {
-  font-family: ;
+ 
   font-size: 0.7em;
   font-weight: 600;
   background-color: #fff;
@@ -1037,7 +1035,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin: 5px 5px 0 5px;
 }
 .footerp1 {
-  font-family: ;
+ 
   font-size: 1.1em;
   font-weight: 600;
   color: #666;
@@ -1052,7 +1050,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin: 10px 0;
 }
 .footerli2 {
-  font-family: ;
+ 
   font-size: 0.9em;
   font-weight: 600;
   color: #262626;
@@ -1060,7 +1058,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin: 10px 5px;
 }
 .footerli3 {
-  font-family: ;
+ 
   font-size: 0.9em;
   font-weight: 600;
   color: #666;
@@ -1082,7 +1080,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin-right: 50px;
 }
 .menuli {
-  font-family: ;
+  
   font-size: 0.9em;
   font-weight: 300;
   line-height: 1.3em;
@@ -1090,7 +1088,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   margin-bottom: 20px;
 }
 .ulh4 {
-  font-family: ;
+  
   font-size: 1.1em;
   font-weight: 600;
   margin: 10px 0;
@@ -1117,13 +1115,13 @@ label input[type="checkbox"]:checked .teklisubmit {
   height: 24px;
 }
 .storep1 {
-  font-family: ;
+ 
   font-size: 0.6em;
   font-weight: 500;
   color: #666;
 }
 .storep2 {
-  font-family: ;
+
   font-size: 0.9em;
   font-weight: 500;
   color: #666;
@@ -1135,7 +1133,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   justify-content: space-between;
 }
 .footerp2 {
-  font-family: ;
+ 
   font-size: 0.8em;
   font-weight: 300;
   color: #585858;
@@ -1263,14 +1261,14 @@ label input[type="checkbox"]:checked .teklisubmit {
     align-items: center;
   }
   .teklih2 {
-    font-family: ;
+    
     font-size: 2.5em;
     line-height: 1.2em;
     font-weight: 600;
     width: 500px;
   }
   .teklip1 {
-    font-family: ;
+   
     font-size: 1.1em;
     line-height: 1.2em;
     font-weight: 500;
@@ -1300,7 +1298,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     padding: 20px;
   }
   .teklip2 {
-    font-family: ;
+ 
     font-size: 0.85em;
     font-weight: 400;
     line-height: 1.5em;
@@ -1366,7 +1364,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     margin-right: 10px;
   }
   .finp {
-    font-family: ;
+    
     font-weight: bold;
     text-align: center;
     margin-top: 40px;
@@ -1392,7 +1390,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     max-width: 100%;
   }
   .kalkh3 {
-    font-family: ;
+    
     font-size: 1.4em;
     font-weight: 600;
     color: #262626;
@@ -1462,7 +1460,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     margin-right: 160px;
   }
   .kalkp4 {
-    font-family: ;
+    
     font-size: 1.6em;
     font-weight: 600;
     width: 145px;
@@ -1472,7 +1470,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     justify-content: center;
   }
   .kalkp5 {
-    font-family: ;
+    
     font-size: 1em;
     font-weight: 500;
     width: 145px;
@@ -1492,7 +1490,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     display: none;
   }
   .kalkp6 {
-    font-family: ;
+    
     font-size: 1em;
     color: #7f7f7f;
     margin: 30px 50px;
@@ -1516,12 +1514,12 @@ label input[type="checkbox"]:checked .teklisubmit {
     padding: 40px 15px;
   }
   .xidmeth2 {
-    font-family: ;
+    
     font-size: 1.6em;
     font-weight: 700;
   }
   .xidmeth3 {
-    font-family: ;
+    
     font-size: 1.2em;
     font-weight: 600;
     width: 185px;
@@ -1561,7 +1559,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     padding: 40px 0;
   }
   .valyutah3 {
-    font-family: ;
+    
     font-size: 1.4em;
     font-weight: 600;
     margin: 0 10px;
@@ -1576,14 +1574,14 @@ label input[type="checkbox"]:checked .teklisubmit {
     align-items: space-;
   }
   .valyutap1 {
-    font-family: ;
+    
     font-size: 0.8em;
     font-weight: 600;
     color: #666;
     margin: 20px 10px -20px 10px;
   }
   .valyutap2 {
-    font-family: ;
+    
     font-size: 0.8em;
     font-weight: 600;
     color: #666;
@@ -1591,7 +1589,7 @@ label input[type="checkbox"]:checked .teklisubmit {
   }
   .valyutagecis {
     rotate: 90deg;
-    font-family: ;
+    
     font-size: 0.8em;
     font-weight: 600;
     color: #666;
@@ -1602,19 +1600,18 @@ label input[type="checkbox"]:checked .teklisubmit {
     height: 100px;
   }
   .tableth {
-    font-family: ;
-    font-size: ;
+    
     font-weight: 500;
     padding: 40px 0;
   }
   .tabletd1 {
-    font-family: ;
+    
     font-size: 1.5em;
     font-weight: 600;
     padding: 10px;
   }
   .tabletd2 {
-    font-family: ;
+    
     font-size: 1.5em;
     font-weight: 400;
   }
@@ -1627,7 +1624,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     margin: 0 15px;
   }
   .valyutah4 {
-    font-family: ;
+    
     font-size: 1.4em;
     font-weight: 600;
     margin: 50px 0;
@@ -1663,12 +1660,12 @@ label input[type="checkbox"]:checked .teklisubmit {
     margin: 0 0 40px 0;
   }
   .xeberh2 {
-    font-family: ;
+    
     font-size: 1.6em;
     font-weight: 700;
   }
   .xeberp1 {
-    font-family: ;
+    
     font-size: 1.1em;
     font-weight: 500;
   }
@@ -1689,13 +1686,13 @@ label input[type="checkbox"]:checked .teklisubmit {
     margin: 25px 0;
   }
   .xeberh3 {
-    font-family: ;
+   
     font-size: 1em;
     font-weight: 500;
     line-height: 1.5em;
   }
   .xeberp2 {
-    font-family: ;
+    
     font-size: 0.7em;
     font-weight: 500;
     line-height: 0.9em;
@@ -1709,7 +1706,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     border-bottom: 1px solid #dedede;
   }
   .reqemsalh2 {
-    font-family: ;
+    
     font-size: 1.6em;
     font-weight: 700;
     margin: 0 0 20px 0;
@@ -1736,7 +1733,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     margin: -180px 0 0 5px;
   }
   .reqemsalh3 {
-    font-family: ;
+   
     font-size: 1.2em;
     font-weight: 600;
     line-height: 1.2em;
@@ -1744,7 +1741,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     margin: 20px 0 15px 0;
   }
   .reqemsalp {
-    font-family: ;
+    
     font-size: 0.9em;
     font-weight: 400;
     line-height: 1.2em;
@@ -1774,7 +1771,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     margin-bottom: 25px;
   }
   .reqemsala1 {
-    font-family: ;
+    
     font-size: 0.7em;
     font-weight: 600;
     background-color: #fff;
@@ -1821,13 +1818,13 @@ label input[type="checkbox"]:checked .teklisubmit {
     height: 24px;
   }
   .storep1 {
-    font-family: ;
+    
     font-size: 0.6em;
     font-weight: 500;
     color: #666;
   }
   .storep2 {
-    font-family: ;
+    
     font-size: 0.9em;
     font-weight: 500;
     color: #666;
@@ -1840,7 +1837,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     padding: 0 60px;
   }
   .footerp2 {
-    font-family: ;
+   
     font-size: 0.8em;
     font-weight: 300;
     color: #585858;
@@ -1879,7 +1876,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     height: 250px;
   }
   .slider1h3 {
-    font-family: ;
+    
     font-size: 2.5em;
     font-weight: 700;
     line-height: 1.5em;
@@ -1887,7 +1884,7 @@ label input[type="checkbox"]:checked .teklisubmit {
     text-align: left
   }
   .slider1p {
-    font-family: ;
+    
     font-size: 1.2em;
     font-weight: 500;
     line-height: 1.3em;
@@ -1972,13 +1969,13 @@ label input[type="checkbox"]:checked .teklisubmit {
     padding: 60px;
   }
   .teklih2 {
-    font-family: ;
+   
     font-size: 2.5em;
     font-weight: 600;
     width: 400px;
   }
   .teklip1 {
-    font-family: ;
+   
     font-size: 1.1em;
     font-weight: 500;
     width: 400px;
@@ -2164,14 +2161,13 @@ label input[type="checkbox"]:checked .teklisubmit {
     margin: 60px;
   }
   .kalkp4 {
-    font-family: ;
+
     font-size: 1.6em;
     font-weight: 600;
     width: 145px;
     margin: 30px 0 30px 0;
   }
   .kalkp5 {
-    font-family: ;
     font-size: 1em;
     font-weight: 500;
     width: 145px;
