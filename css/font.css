@@ -1,0 +1,23 @@
+
+
+
+@font-face {
+    font-family: 'SFProDisplay-Regular';
+    src: url(font/SFProDisplay-Regular.woff2);
+    
+}
+@font-face {
+    font-family: 'SFProDisplay-Bold';
+    src: url(font/SFProDisplay-Bold.woff2);
+    
+}
+@font-face {
+    font-family: 'SFProDisplay-Light';
+    src: url(font/SFProDisplay-Light.woff2);
+    
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url(font/OpenSans-Light.ttf);
+    
+}

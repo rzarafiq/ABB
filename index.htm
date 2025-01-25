@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABB</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="navsol">
+          <div class="acilirMenu1">
+            <input type="checkbox" id="inp1" />
+            <label for="inp1" class="inp1"
+              >Ferdi şexsler
+              <img
+                class="acilirMenu1img"
+                src="img/select-arrow-down.svg"
+                alt="select-arrow-down"
+              />
+            </label>
+            <div class="menu1">
+              <a href="#">Fərdi şəxslər</a>
+              <a href="#">Kiçik Biznes</a>
+              <a href="#">KOB</a>
+              <a href="#">Korporativ</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navsag">
+          <button>
+            <label for="inp2">
+              <img src="img/search.svg" alt="search" />
+            </label>
+          </button>
+          <div class="acilirMenu2">
+            <input type="checkbox" id="inp3" />
+            <label for="inp3" class="inp3"
+              >AZ
+              <img
+                class="acilirMenu2img"
+                src="img/select-arrow-down.svg"
+                alt="select-arrow-down"
+              />
+            </label>
+
+            <div class="menu2">
+              <div class="en">
+                <img class="flg" src="img/flag-uk.svg" alt="UK flag" />
+                <a href="#">EN</a>
+              </div>
+              <div class="ru">
+                <img class="flg" src="img/flag-ru.svg" alt="UK flag" />
+                <a href="#">RU</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tel">
+          <img src="img/phone.svg" alt="phone" />
+          <p>937</p>
+        </div>
+      </nav>
+
+      <div class="nav2">
+        <input type="checkbox" id="inp2" />
+        <div class="axtar1">
+          <input
+            type="search"
+            id="axtar2"
+            placeholder="Sizə necə kömək edə bilərik?"
+          />
+          <button id="bagla">
+            <label for="inp2"><img src="img/close.svg" alt="close" /></label>
+          </button>
+        </div>
+
+        <div class="nav2sol">
+          <img src="img/abb-logo.svg" alt="abb-logo" />
+          <button class="menubar1">
+            <label for="inp4"> <i class="fa-solid fa-bars"></i> </label>
+          </button>
+        </div>
+      </div>
+
+      <input type="checkbox" id="inp4" />
+      <div class="menubar2">
+        <div class="menubar2icerik">
+          <div class="btn1">
+            <img
+              src="img/internet-banking-signin.svg"
+              alt="internet-banking-signin"
+            />
+            <p>İnternet Bankçılıq</p>
+          </div>
+          <div class="btn2">
+            <img src="img/career-portal.svg" alt="career-portal" />
+            <p>Karyera portali</p>
+          </div>
+        </div>
+
+        <div class="scroll">
+          <a href="#">Haqqımızda</a>
+          <a href="#">Dayanıqlı İnkişaf Hesabatları</a>
+          <a href="#">Tariflər</a>
+          <a href="#">Xəbərlər</a>
+          <a href="#">Satınalmalar</a>
+          <a href="#">Xidmət şəbəkəsi</a>
+          <a href="#">Araşdırma</a>
+          <a href="#">İnvestorlarla əlaqə</a>
+        </div>
+
+        <input type="checkbox" id="inp5" />
+        <div class="acilirMenu3">
+          <label for="inp5">
+            Kartlar
+            <img
+              class="dwn"
+              src="img/select-arrow-down.svg"
+              alt="select-arrow-down"
+            />
+          </label>
+          <div class="altMenu">
+            <a href="#">Debet kartları</a>
+            <a href="#">Kredit kartları</a>
+            <a href="#">Adsız debat kartlar üzrə rəsmiləşdirmə prosesi</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="inp6" />
+        <div class="acilirMenu4">
+          <label for="inp6">
+            Kreditler
+            <img
+              class="dwn"
+              src="img/select-arrow-down.svg"
+              alt="select-arrow-down"
+            />
+          </label>
+          <div class="altMenu">
+            <a href="#">Online Kredit al</a>
+            <a href="#">Avans kredit xətti</a>
+            <a href="#">Nağd kredit</a>
+            <a href="#">Avtomobil krediti</a>
+            <a href="#">Əmanətçi kredit limiti</a>
+            <a href="#">Əmanətçi nağd krediti</a>
+            <a href="#">Kart üzrə kredit limiti</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="inp7" />
+        <div class="acilirMenu5">
+          <label for="inp7">
+            Onlayn xidmətlər
+            <img
+              class="dwn"
+              src="img/select-arrow-down.svg"
+              alt="select-arrow-down"
+            />
+          </label>
+          <div class="altMenu">
+            <a href="#">ABB mobile-Mobil Bank</a>
+            <a href="#">ABB Business Internet Bank</a>
+            <a href="#">R@ndevu</a>
+            <a href="#">Arayış sifariş edin</a>
+            <a href="#">Kredit ödəyin</a>
+            <a href="#">ATM</a>
+            <a href="#">Xidmətinizdəyik!</a>
+            <a href="#">Ödəniş terminalı</a>
+            <a href="#">Cash-In ATM-i</a>
+            <a href="#">Məlumat Mərkəzi 24/7</a>
+            <a href="#">FAQ</a>
+            <a href="#">İanə et</a>
+          </div>
+        </div>
+
+        <div class="acilirMenu6">
+          <label> Kampaniyalar </label>
+        </div>
+
+        <input type="checkbox" id="inp8" />
+        <div class="acilirMenu7">
+          <label for="inp8">
+            Keşbek
+            <img
+              class="dwn"
+              src="img/select-arrow-down.svg"
+              alt="select-arrow-down"
+            />
+          </label>
+          <div class="altMenu">
+            <a href="#">Faydalı keşbek</a>
+            <a href="#">QayğıCash klubu</a>
+            <a href="#">Fayda Max</a>
+            <a href="#">Avtomatik endirim</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="inp9" />
+        <div class="acilirMenu8">
+          <label for="inp9">
+            Əmanətlər
+            <img
+              class="dwn"
+              src="img/select-arrow-down.svg"
+              alt="select-arrow-down"
+            />
+          </label>
+          <div class="altMenu">
+            <a href="#">"Klassik" əmanəti</a>
+            <a href="#">DigiDeposit</a>
+            <a href="#">Əmanətlərin sığortalanması</a>
+            <a href="#">Əmanətli ipoteka krediti</a>
+            <a href="#">Depozit seyfi</a>
+          </div>
+        </div>
+
+        <div class="acilirMenu9">
+          <label> İpoteka </label>
+        </div>
+
+        <input type="checkbox" id="inp10" />
+        <div class="acilirMenu10">
+          <label for="inp10">
+            Pul Köçürmələri
+            <img
+              class="dwn"
+              src="img/select-arrow-down.svg"
+              alt="select-arrow-down"
+            />
+          </label>
+          <div class="altMenu">
+            <a href="#">Valyuta tənzimlənməsi</a>
+            <a href="#">Hesabdan köçürmələr</a>
+            <a href="#">Təcili pul köçürmələri</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="inp11" />
+        <div class="acilirMenu11">
+          <label for="inp11">
+            Cari hesab
+            <img
+              class="dwn"
+              src="img/select-arrow-down.svg"
+              alt="select-arrow-down"
+            />
+          </label>
+          <div class="altMenu">
+            <a href="#">DigiHesab Max açın</a>
+            <a href="#">DigiHesab açın</a>
+            <a href="#">Cari hesab açın</a>
+            <a href="##">Kassa əməliyyatları</a>
+            <a href="#">Hesabınıza nəzarət edin</a>
+            <a href="#">Arayış sifariş edin</a>
+            <a href="#">Mübadilə əməliyyatları</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="inp12" />
+        <div class="acilirMenu12">
+          <label for="inp12">
+            Ödənişlər
+            <img
+              class="dwn"
+              src="img/select-arrow-down.svg"
+              alt="select-arrow-down"
+            />
+          </label>
+          <div class="altMenu">
+            <a href="#">Telefon</a>
+            <a href="#">Mobil</a>
+            <a href="#">Kommunal</a>
+          </div>
+        </div>
+
+        <div class="acilirMenu13">
+          <label> Məlumatlandırma və Standart Şərtlər </label>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide1">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="slider1div">
+                <div class="sliderimg1">
+                  <img src="img/slider1.webp" class="slider1img" alt="slider1" />
+                </div>
+                <div class="carousel-caption slide1tex">
+                  <h3 class="slider1h3">ABB Biz artıq istifadənizdə!</h3>
+                  <p class="slider1p">
+                    Kiçik bizneslər üçün yaradılmış mobil tətbiq
+                  </p>
+                  <a class="slider1a" href="#">Ətraflı</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider1div">
+                <div class="sliderimg1">
+                  <img src="img/slider2.webp" class="slider1img" />
+                </div>
+                <div class="carousel-caption slide1tex">
+                  <h3 class="slider1h3">DigiTransfer</h3>
+                  <p class="slider1p">
+                    Komissiyasız beynəlxalq köçürmələr DigiTransfer ilə
+                    mümkündür!
+                  </p>
+                  <a class="slider1a" href="#">Ətraflı</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider1div">
+                <div class="sliderimg1">
+                  <img src="img/slider3.webp" class="slider1img" alt="slider3" />
+                </div>
+                <div class="carousel-caption slide1tex">
+                  <h3 class="slider1h3">Tam DigiCard qazandırır!</h3>
+                  <p class="slider1p">
+                    Keşbek, komissiyasız köçürmələr və 2x ƏDV üçün pulsuz Tam
+                    DigiCard sifariş edin!
+                  </p>
+                  <a class="slider1a" href="#">Sifariş edin</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider1div">
+                <div class="sliderimg1">
+                  <img src="img/slider4.webp" class="slider1img" alt="slider4" />
+                </div>
+                <div class="carousel-caption slide1tex">
+                  <h3 class="slider1h3">
+                    Fayda Max oyunun qaydalarını dəyişir!
+                  </h3>
+                  <p class="slider1p">
+                    ABB mobile-la xərclədikcə daha çox qazanın
+                  </p>
+                  <a class="slider1a" href="#">Ətraflı</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container cardsection">
+        <div class="card1h2">
+          <h2>Sadə keçidlər</h2>
+        </div>
+        <div class="card1div">
+          <div class="card1 card11">
+            <div class="card1tex">
+              <h3 class="card1h3">Tam DigiCard</h3>
+              <p class="card1p">
+                Bir çox üstünlüklərlə həm rəqəmsal, həm real debet kart
+              </p>
+              <a class="card1a" href="#">Sifariş edin</a>
+            </div>
+            <div class="card1img1">
+              <img src="img/card1.1.webp" class="card1img" alt="card1" />
+            </div>
+          </div>
+          <div class="card1 card12">
+            <div class="card1tex">
+              <h3 class="card1h3">Nağd pul krediti</h3>
+              <p class="card1p">
+                Bütün ehtiyaclarınız üçün 40 000 AZN-dək nağd pul krediti
+              </p>
+              <a class="card1a" href="#">Kredit alın</a>
+            </div>
+            <div class="card1img2">
+              <img src="img/card1.2.webp" class="card1img" alt="card2" />
+            </div>
+          </div>
+          <div class="card1 card13">
+            <div class="card1tex">
+              <h3 class="card1h3">ABB Biz</h3>
+              <p class="card1p">
+                Biznesinizin daha səmərəli və asan idarəedilməsi üçün
+                çoxfunksiyalı həllər
+              </p>
+              <a class="card1a" href="#">Daha ətraflı</a>
+            </div>
+            <div class="card1img3">
+              <img src="img/card1.3.webp" class="card1img" alt="card3" />
+            </div>
+          </div>
+          <div class="card1 card14">
+            <div class="card1tex">
+              <h3 class="card1h3">TamKart kredit kartı</h3>
+              <p class="card1p">
+                Hər kəs üçün 30 ayadək hissəli ödəniş imkanı olan faizsiz taksit
+                kartı
+              </p>
+              <a class="card1a" href="#">Sifariş edin</a>
+            </div>
+            <div class="card1img4">
+              <img src="img/card1.4.webp" class="card1img" alt="card4" />
+            </div>
+          </div>
+          <div class="card1 card15">
+            <div class="card1tex">
+              <h3 class="card1h3">İnvestisiya</h3>
+              <p class="card1p">
+                Səhm və investisiya fondlarının paylarının alışı və satışı üçün
+                geniş imkanlar ABB mobile-da
+              </p>
+              <a class="card1a" href="#">Daha ətraflı</a>
+            </div>
+            <div class="card1img5">
+              <img src="img/card1.5.webp" class="card1img" alt="card5" />
+            </div>
+          </div>
+          <div class="card1 card16">
+            <div class="card1tex">
+              <h3 class="card1h3">İpoteka krediti</h3>
+              <p class="card1p">
+                15-dən çox kateqoriya üzrə hər kəsə uyğun sərfəli daxili ipoteka
+                kreditləri
+              </p>
+              <a class="card1a" href="#">Müraciət edin</a>
+            </div>
+            <div class="card1img6">
+              <img src="img/card1.6.webp" class="card1img" alt="card6" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container cardtekli">
+        <div class="teklidiv1">
+          <div class="teklidiv3">
+            <h2 class="teklih2">
+              Sizə özəl kredit təklifimizi dərhal öyrənin!
+            </h2>
+            <p class="teklip1">40 000 AZN-dək komissiyasız kredit əldə edin</p>
+          </div>
+          <form class="tekliform">
+            <input class="tekliinput" type="text" name="user" placeholder="Fin kod *" />
+            <button id="tekliinfo">
+              <img src="img/popover-info.svg" alt="popover-info" />
+              <div class="teklifin">
+                <div class="finimg">
+                  <img src="img/popover-fin-1.png" class="fin-1" alt="opover-fin-1" />
+                  <img src="img/popover-fin-2.png" class="fin-1" alt="popover-fin-2" />
+                </div>
+                <p class="finp">FİN kod *</p>
+              </div>
+            </button>
+            <input class="tekliinput" type="phone" name="phone" placeholder="Mobil telefon nömrəsi *" />
+            <div class="teklicheck">
+              <label for="checkbox">
+                <input class="teklicheck1" type="checkbox" id="checkbox" />
+              </label>
+              <p class="teklip2">
+                Kredit tarixçəm haqqında məlumatlarımın <a href="#"><u>Azərbaycan Kredit Bürosundan</u></a> alınmasına və <a href="#"><u>ASAN Finans/E-GOV</u></a> sistemi vasitəsilə şəxsiyyəti təsdiq edən sənəd, iş yeri, əmək haqqı və s. məlumatlarımın ABB-yə təqdim edilməsinə razılıq verirəm
+              </p>
+            </div>
+            <input class="teklisubmit" type="submit" value="Davam edin" />
+          </form>
+        </div>
+        <div class="teklidiv2">
+          <img src="img/card-tekli.webp" class="tekliimg" alt="card-tekli" />
+        </div>
+      </section>
+
+      <section class="container kalk">
+        <div>
+          <h3 class="kalkh3">Kredit kalkulyatoru</h3>
+          <input class="kalkinp" type="text" placeholder="Kredit məbləği             5000AZN" />
+          <input class="kalkrange" type="range" value="16" />
+          <div class="kalkdiv1">
+            <p class="kalkp1">300</p>
+            <p class="kalkp2">40000</p>
+          </div>
+          <input class="kalkinp" type="text" placeholder="Kredit məbləği                     6 ay" />
+          <input class="kalkrange" type="range" value="6" />
+          <div class="kalkdiv1">
+            <p class="kalkp1">3 ay</p>
+            <p class="kalkp2">59 ay</p>
+          </div>
+          <input class="kalkinp" type="text" placeholder="Kredit məbləği                  10.9%"/>
+          <input class="kalkrange" type="range" value="1" />
+          <p class="kalkp3">10.9%</p>
+          <p class="kalkp7">İlkin hesablama</p>
+        </div>
+        <div>
+          <div class="kalkdiv2">
+            <div class="kalkdiv4">
+              <p class="kalkp4">860.03 ₼</p>
+              <p class="kalkp5">Aylıq ödəniş</p>
+            </div>
+            <hr class="kalkhr1" />
+            <div class="kalkdiv5">
+              <p class="kalkp4">5160.18 ₼</p>
+              <p class="kalkp5">Ümumi məbləğ</p>
+            </div>
+          </div>
+          <hr class="kalkhr" />
+          <div class="kalkdiv3">
+            <p class="kalkp6">İlkin hesablama</p>
+            <button class="kalkbuton">Kredit alın</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="container xidmet">
+        <h2 class="xidmeth2">Xidmətlər</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="xidmet-img" src="img/slide2.1.webp" alt="slide2.1" />
+              <h3 class="xidmeth3">Xidmət ofisi və ATM-lər</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slide2.2.webp" alt="slide2.2" />
+              <h3 class="xidmeth3">Onlayn növbə</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slide2.3.webp" alt="slide2.3" />
+              <h3 class="xidmeth3">Məlumat mərkəzi</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slide2.4.webp" alt="slide2.4" />
+              <h3 class="xidmeth3">Kredit ödənişi</h3>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="container valyuta">
+        <div>
+        <h3 class="valyutah3">Valyuta məzənnələri</h3>
+        <div class="valyutap">
+          <p class="valyutap1">Son yenilənmə: 22.01.2025</p>
+        </div>
+        <div>
+          <table class="valyutaCedvel">
+            <tr>
+              <th class="tableth">Valyuta</th>
+              <th class="tableth">Satış</th>
+              <th class="tableth">Alış</th>
+            </tr>
+            <tr>
+              <td class="tabletd1">USD</td>
+              <td class="tabletd2">1.7020</td>
+              <td class="tabletd2">1.6970</td>
+            </tr>
+            <tr>
+              <td class="tabletd1">EUR</td>
+              <td class="tabletd2">1.7855 <img src="img/up.svg" alt="up" /></td>
+              <td class="tabletd2">1.7411 <img src="img/up.svg" alt="up" /></td>
+            </tr>
+            <tr>
+              <td class="tabletd1">100 RUB</td>
+              <td class="tabletd2">1.9600 <img src="img/down.svg" alt="down" /></td>
+              <td class="tabletd2">1.4400 <img src="img/down.svg" alt="down" /></td>
+            </tr>
+          </table>
+          <hr class="valyutahr" />
+          <div>
+          <p class="valyutap11">Son yenilənmə: 22.01.2025</p>
+          <p class="valyutap2">
+            Bütün valyuta məzənnələr
+            <img class="valyutagecis" src="img/select-arrow-down.svg" alt="select-arrow-down" />
+          </p>
+        </div>
+        </div>
+      </div>
+        <div class="valyutaconvert">
+          <h4 class="valyutah4">Valyuta konvertoru</h4>
+          <input class="valyutasatis" type="tex" placeholder="Satıram" />
+          <label id="_label" for=""></label>
+          <div class="valyutav input-group mb-3">
+            <select id="" name="" class="form-control form-select">
+              <option selected>USD</option>
+              <option>AZN</option>
+              <option>RUB</option>
+              <option>EUR</option>
+            </select>
+          </div>
+          <input class="valyutasatis" type="tex" placeholder="Alıram" />
+          <label id="_label" for=""></label>
+          <div class="valyutav input-group mb-3">
+            <select id="" name="" class="form-control form-select">
+              <option selected>AZN</option>
+              <option>USD</option>
+              <option>RUB</option>
+              <option>EUR</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <section class="container xeber">
+        <div class="xeberdiv1">
+          <h2 class="xeberh2">Xəbərlər</h2>
+          <p class="xeberp1">
+            Bütün xəbərlər
+            <img class="xeberimg" src="img/select-arrow-down.svg" alt="select-arrow-down" />
+          </p>
+        </div>
+        <div class="xeberdiv2">
+          <div class="xeberdiv3">
+            <h3 class="xeberh3">
+              SOCAR-ın “Yaşıl” istiqrazları ABB mobile tətbiqində!
+            </h3>
+            <p class="xeberp2">23.01.2025</p>
+          </div>
+          <div class="xeberdiv3">
+            <h3 class="xeberh3">
+              Abbas İbrahimov: “Bu il ilk dəfə olaraq 35 mindən artıq
+              səhmdarımızla, vətəndaşlarımızla gəlirlərimizi bölüşəcəyik”
+            </h3>
+            <p class="xeberp2">17.01.2025</p>
+          </div>
+          <div class="xeberdiv3">
+            <h3 class="xeberh3">
+              ABB biznes proseslərində SİMA İmza-nın geniş tətbiqinə başladı
+            </h3>
+            <p class="xeberp2">09.01.2025</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container reqemsal">
+        <h2 class="reqemsalh2">Rəqəmsal məhsullar</h2>
+        <div class="reqemsaldiv">
+          <div class="reqemsaldiv1">
+            <div class="reqemsaldiv2">
+              <div class="reqemsaldiv3">
+                <img src="img/card2.1.webp" class="reqemsalimg1" alt="card2.1" />
+                <section class="reqemsalSection"></section>
+              </div>
+              <div class="reqemsaldiv4">
+                <h3 class="reqemsalh3">ABB mobile</h3>
+                <p class="reqemsalp">
+                  Hər zaman və hər yerdə istifadə edə biləcəyiniz sadə və
+                  sürətli bank tətbiqi xidmətidir
+                </p>
+                <div class="reqemsaldiv5">
+                  <img class="reqemsalimg2"  src="img/play-store.svg" alt="play-store" />
+                  <img class="reqemsalimg2" src="img/app-store.svg" alt="app-store" />
+                  <img class="reqemsalimg2" src="img/huawei.svg" alt="huawei" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reqemsaldiv6">
+            <div class="reqemsaldiv2">
+              <div class="reqemsaldiv3">
+                <img src="img/card2.2.webp" class="reqemsalimg1" alt="card2.2" />
+                <section class="reqemsalSection"></section>
+              </div>
+              <div class="reqemsaldiv4">
+                <h3 class="reqemsalh3">ABB Business İnternet Bank ilə biznes əməliyyatlarınızı həyata keçirin</h3>
+                <div class="reqemsaldiv5">
+                  <a class="reqemsala1" href="#">Daxil olun</a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="reqemsaldiv7">
+            <div class="reqemsaldiv2">
+              <div class="reqemsaldiv3">
+                <img src="img/card2.3.webp" class="reqemsalimg1" alt="card2.3" />
+                <section class="reqemsalSection"></section>
+              </div>
+              <div class="reqemsaldiv4">
+                <h3 class="reqemsalh3">Mobil POS xidməti ilə biznes rahatlığı hər yerdə sizinlədir</h3>
+                <p class="reqemsalp">Biznes prosesinizi ABB mobile POS xidmətilə sürətləndirin</p>
+                <div class="reqemsaldiv5">
+                  <img class="reqemsalimg2" src="img/play-store.svg" alt="play-store" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reqemsaldiv8">
+            <div class="reqemsaldiv2">
+              <div class="reqemsaldiv3">
+                <img src="img/card2.4.webp" class="reqemsalimg1" />
+                <section class="reqemsalSection"></section>
+              </div>
+              <div class="reqemsaldiv4">
+                <h3 class="reqemsalh3">Yatırım imkanlarından faydalanın</h3>
+                <p class="reqemsalp">Səhm və investisiya fondlarının paylarının alışı və satışı üçün geniş imkanlar</p>
+                <div class="reqemsaldiv5">
+                  <a class="reqemsala1" href="#">Daha ətraflı</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="container footer">
+        <div class="footerdiv1">
+          <img class="footerlogo" src="img/abb-logo.svg" alt="abb-logo" />
+          <div class="footerdiv2">
+            <img class="footertel" src="img/phone.svg" alt="phone" />
+            <p class="footerp1"><a href="#">937</a></p>
+          </div>
+        </div>
+        <div class="footer2div2">
+          <ul class="footerul2">
+            <li class="footerli2">Fərdi Şəxslər /</li>
+            <li class="footerli3">Haqqımızda /</li>
+            <li class="footerli3">Kiçik Biznes /</li>
+            <li class="footerli3">İnvestorlarla əlaqə /</li>
+            <li class="footerli3">KOB /</li>
+            <li class="footerli3">Korporativ</li>
+          </ul>
+          <ul>
+            <h4 class="ulh4">Əlaqə</h4>
+            <li class="menuli">Nizami küç. 67, AZ1005 Bakı, Azərbaycan</li>
+            <li class="menuli">Tel.: (+994 12) 493 00 91</li>
+            <li class="menuli">Faks: (+994 12) 493 40 91</li>
+            <li class="menuli">E-poçt: info@abb-bank.az</li>
+          </ul>
+          <div>
+            <label class="sosialbg"><img class="footersosial" src="img/ins.svg" alt="instagram" /></label>
+            <label class="sosialbg"><img class="footersosial" src="img/fb.svg" alt="facebook" /></label>
+            <label class="sosialbg"><img class="footersosial" src="img/youtube.svg" alt="youtube" /></label>
+            <label class="sosialbg"><img class="footersosial" src="img/twitter.svg" alt="tiwitter" /></label>
+            <label class="sosialbg"><img class="footersosial" src="img/linkedin.svg" alt="linkedin" /></label>
+          </div>
+          <div class="app">
+            <div class="appstore">
+              <div>
+                <img class="storeimg" src="img/app-store1.svg" alt="app-store" />
+              </div>
+              <div>
+                <p class="storep1">
+                  Yükləyin
+                </p>
+                <p class="storep2">
+                  App Store
+                </p>
+              </div>
+            </div>
+            <div class="appstore">
+              <div>
+                <img src="img/play-store1.svg" alt="play-store" />
+              </div>
+              <div>
+                <p class="storep1">
+                  Yükləyin
+                </p>
+                <p class="storep2">
+                  Google Play
+                </p>
+              </div>
+            </div>
+            <div class="appstore">
+              <div>
+                <img src="img/huawei1.svg" alt="app-store" />
+              </div>
+              <div>
+                <p class="storep1">
+                  Yükləyin
+                </p>
+                <p class="storep2">
+                  App Gallery
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="partniorlogo" src="img/logo-infobank.webp" alt="logo-infobank" />
+            <img class="partniorlogo" src="img/logo-virtual-qarabag.webp" alt="logo-virtual-qarabag" />
+            <img class="partniorlogo" src="img/yenilogo.webp" alt="yenilogo" />
+            <img class="partniorlogo" src="img/logo-msp.webp" alt="logo-msp" />
+          </div>
+          <p class="footerp2">© ABB - Bütün hüquqlar qorunur</p>
+        </div>
+      </section>
+   
+      <section class="container-fluid">
+        <div class="container footer1">
+          <div class="footerdiv1">
+            <img class="footerlogo" src="img/abb-logo.svg" alt="abb-logo" />
+            <div class="footerdiv2">
+              <img class="footerib" src="img/internet-banking-signin.svg" alt="internet-banking-signin" />
+              <p class="footerp1"><a href="#">İnternet Bankçılıq</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="footermenu">
+          <div class="footermenu1">
+            <ul class="menuul">
+              <h4 class="ulh4">Fərdi Şəxslər</h4>
+              <li class="menuli">Kartlar</li>
+              <li class="menuli">Kreditlər</li>
+              <li class="menuli">Onlayn xidmətlər</li>
+              <li class="menuli">Kampaniyalar</li>
+              <li class="menuli">Keşbek</li>
+              <li class="menuli">Əmanətlər</li>
+              <li class="menuli">İpoteka</li>
+              <li class="menuli">Pul köçürmələri</li>
+              <li class="menuli">Cari hesab</li>
+              <li class="menuli">Ödənişlər</li>
+              <li class="menuli">Sual-cavab</li>
+              <li class="menuli">Məlumatlandırma və Standart Şərtlər</li>
+              <li class="menuli">Faydalı linklər</li>
+            </ul>
+            <ul class="menuul">
+              <h4 class="ulh4">Haqqımızda</h4>
+              <li class="menuli">Missiya və strateji baxış</li>
+              <li class="menuli">Rəhbərlik</li>
+              <li class="menuli">Məlumatların açıqlanması</li>
+              <li class="menuli">Brend mərkəzi</li>
+              <li class="menuli">Törəmə və asılı müəssisələrdə iştirak payı</li>
+              <li class="menuli">Müxbir banklar</li>
+              <li class="menuli">Maliyyə monitorinqi və komplayns</li>
+              <li class="menuli">İnsan Resursları</li>
+              <li class="menuli">Korporativ Sosial Məsuliyyət / Sponsorluq</li>
+              <li class="menuli">Siyasətlərimiz</li>
+              <li class="menuli">Mükafatlar</li>
+              <li class="menuli">Təklif və şikayətlər</li>
+            </ul>
+            <ul class="menuul">
+              <h4 class="ulh4">Kiçik Biznes</h4>
+              <li class="menuli">Onlayn kreditlər</li>
+              <li class="menuli">Ödəniş sistemləri</li>
+              <li class="menuli">Gündəlik bankçılıq</li>
+              <li class="menuli">E-mühasibim</li>
+              <li class="menuli">Fərdi müştəri təmsilçiliyi</li>
+            </ul>
+            <ul class="menuul">
+              <h4 class="ulh4">İnvestorlarla əlaqə</h4>
+              <li class="menuli">ABB səhmləri</li>
+              <li class="menuli">Hesabatlar</li>
+              <li class="menuli">Səhmdarlar</li>
+              <li class="menuli">Reytinqlər</li>
+              <li class="menuli">Korporativ təqdimat</li>
+              <li class="menuli">Digər məlumatlar</li>
+            </ul>
+            <ul class="menuul">
+              <h4 class="ulh4">KOB</h4>
+              <li class="menuli">Biznes kreditləri</li>
+              <li class="menuli">Məsafədən hesab aç</li>
+              <li class="menuli">ABB Link</li>
+              <li class="menuli">Xidmət paketləri</li>
+              <li class="menuli">Ödəniş kartları</li>
+              <li class="menuli">Sənədli əməliyyatlar</li>
+              <li class="menuli">Köçürmələr</li>
+              <li class="menuli">Elektron bankçılıq</li>
+              <li class="menuli">Hesablar</li>
+              <li class="menuli">Əmanətlər</li>
+            </ul>
+            <ul class="menuul">
+              <h4 class="ulh4">Korporativ</h4>
+              <li class="menuli">Korporativ kreditlər</li>
+              <li class="menuli">Məsafədən hesab aç</li>
+              <li class="menuli">Ödəniş kartları</li>
+              <li class="menuli">Əməkhaqqı layihəsi</li>
+              <li class="menuli">Sənədli əməliyyatlar</li>
+              <li class="menuli">Elektron bankçılıq</li>
+              <li class="menuli">Köçürmələr</li>
+              <li class="menuli">Hesablar</li>
+              <li class="menuli">Əmanətlər</li>
+            </ul>
+            <ul class="menuul">
+              <h4 class="ulh4">Əlaqə</h4>
+              <li class="menuli">Nizami küç. 67, AZ1005 Bakı, Azərbaycan</li>
+              <li class="menuli">Tel.: (+994 12) 493 00 91</li>
+              <li class="menuli">Faks: (+994 12) 493 40 91</li>
+              <li class="menuli">E-poçt: info@abb-bank.az</li>
+              <li><img class="footertel" src="img/phone.svg" alt="phone" />937</li>
+            </ul>
+          </div>
+      
+          <div class="app">
+            <div class="appstore">
+              <div>
+                <img class="storeimg" src="img/app-store1.svg" alt="app-store" />
+              </div>
+              <div>
+                <p class="storep1">
+                  Mobil tətbiqi yüklə
+                </p>
+                <p class="storep2">
+                  App Store
+                </p>
+              </div>
+            </div>
+            <div class="appstore">
+              <div>
+                <img src="img/play-store1.svg" alt="play-store" />
+              </div>
+              <div>
+                <p class="storep1">
+                  Mobil tətbiqi yüklə
+                </p>
+                <p class="storep2">
+                  Google Play
+                </p>
+              </div>
+            </div>
+            <div class="appstore">
+              <div>
+                <img src="img/huawei1.svg" alt="app-store" />
+              </div>
+              <div>
+                <p class="storep1">
+                  Mobil tətbiqi yüklə
+                </p>
+                <p class="storep2">
+                  App Gallery
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footermedia">
+            <p class="footerp2">© ABB - Bütün hüquqlar qorunur</p>
+            <div>
+              <img class="partniorlogo" src="img/logo-infobank.webp" alt="logo-infobank" />
+              <img class="partniorlogo" src="img/logo-virtual-qarabag.webp" alt="logo-virtual-qarabag" />
+              <img class="partniorlogo" src="img/yenilogo.webp" alt="yenilogo" />
+              <img class="partniorlogo" src="img/logo-msp.webp" alt="logo-msp" />
+            </div>
+            <div>
+              <label class="sosialbg"><img class="footersosial" src="img/ins.svg" alt="instagram" /></label>
+              <label class="sosialbg"><img class="footersosial" src="img/fb.svg" alt="facebook" /></label>
+              <label class="sosialbg"><img class="footersosial" src="img/youtube.svg" alt="youtube" /></label>
+              <label class="sosialbg"><img class="footersosial" src="img/twitter.svg" alt="tiwitter" /></label>
+              <label class="sosialbg"><img class="footersosial" src="img/linkedin.svg" alt="linkedin" /></label>
+            </div>
+          </div>
+      </div>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
